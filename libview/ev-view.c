@@ -482,6 +482,7 @@ ev_view_get_scrollbar_size (EvView        *view,
 	return (orientation == GTK_ORIENTATION_VERTICAL ? req.width : req.height) + spacing;
 }
 
+/* Checks if Dual view is on */
 static gboolean
 is_dual_page (EvView   *view,
 	      gboolean *odd_left_out)
